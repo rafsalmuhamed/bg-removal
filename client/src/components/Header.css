@@ -1,0 +1,31 @@
+@media(max-width:600px){
+    .button_add_image{
+        display: flex;
+        justify-content: center;
+        padding: 10px 10px;
+        
+    }
+    .button_add_image img{
+        width: 15px;
+    }
+    .para{
+        text-align: center;
+    }
+    .header_main{
+        text-align: center;
+        
+    }
+    
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+}
+
+@media(min-width:600px){
+    .header_main{
+        margin-top: 100px;
+        line-height: 60px;
+    }
+}
+    

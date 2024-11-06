@@ -1,0 +1,36 @@
+
+.step_box{
+    display: flex;
+    align-items: center;
+    background-color: #e0e7ff;
+    
+
+}
+.steps_icon{
+    background: linear-gradient(to right, #bae6fd, #c7d2fe);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media(max-width:600px){
+    .step_box{
+        height: 100px;
+        padding: 20px ;
+        width: 300px;
+    }
+    .step_head{
+        font-size: medium;
+    }
+    .step_cont{
+        font-size: small;
+    }
+}
+
+@media(min-width:600px){
+    .step_box{
+        height: 150px;
+        width:350px;
+        padding: 30px;
+        
+    }
+}
