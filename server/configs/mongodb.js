@@ -1,13 +1,12 @@
 import mongoose from 'mongoose'
 
-const connectDB = async ()=>{
+const connectDB = async()=>{
 
     mongoose.connection.on('connected',()=>{
-        console.log("database Connected");
+        console.log('database connected');
         
     })
-
-    await mongoose.connect(`${process.env.MONGODB_URI}/brush-ai`)
+    await mongoose.connect(`${process.env.MONGODB_URI}/bg-removal`)
 }
 
 export default connectDB
